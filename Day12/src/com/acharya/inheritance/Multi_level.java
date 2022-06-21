@@ -9,16 +9,16 @@ class Animal1
     }
 class Dog1 extends Animal1
     {
-	    void Brak()
+	    void Bark()
 	    {
 	    	System.out.println("Braking....");
 	    }
     }
 class Babydog extends Dog1
     {
-	    void some()
+	    void whines()
 	    {
-	    	System.out.println("soming....");
+	    	System.out.println("whining....");
 	    }
     }
 public class Multi_level {
@@ -33,9 +33,9 @@ public class Multi_level {
          a.eat();
          a1.eat();
          a2.eat();
-         d.Brak();
-         d1.Brak();
-         b.some();
+         d.Bark();
+         d1.Bark();
+         b.whines();
 	}
 
 }
