@@ -9,9 +9,9 @@ class Animal2
      }
 class Dog2 extends Animal2
      {
-	    void brak()
+	    void bark()
 	    {
-	    	System.out.println("Braking...");
+	    	System.out.println("Barking...");
 	    }
      }
 class Cat extends Animal2
@@ -32,7 +32,7 @@ public class Hierarchical {
 		a.eat();
 		a1.eat();
 		a2.eat();
-		d.brak();
+		d.bark();
 		c.meaow();
 
 	}
