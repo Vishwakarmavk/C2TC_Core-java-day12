@@ -9,9 +9,9 @@ class Animal
     }
 class Dog extends Animal
     {
-	  void brak()
+	  void bark()
 	  {
-		  System.out.println("Braking...");
+		  System.out.println("Barking...");
 	  }
     }
 public class Single_level {
@@ -22,7 +22,7 @@ public class Single_level {
 		 Dog d=new Dog();
 		 a.eat();
 		 a1.eat();
-		 d.brak();
+		 d.bark();
 	}
 
 }
